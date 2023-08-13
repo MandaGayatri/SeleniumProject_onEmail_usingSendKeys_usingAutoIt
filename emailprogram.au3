@@ -1,0 +1,6 @@
+ControlFocus("Open","","Edit1")
+sleep(2000)
+ControlSetText("Open","","Edit1","C:\Resume.pdf")
+sleep(2000)
+ControlClick("Open","","Button1")
+sleep(2000)
