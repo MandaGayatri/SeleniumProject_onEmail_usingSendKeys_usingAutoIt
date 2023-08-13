@@ -21,6 +21,6 @@ This project centers around automating key functionalities of the Gmail applicat
 ### 4)XLSheetData
 In our automation framework, we've incorporated essential functions to efficiently interact with Excel data. "getCell","getRow","getCellData","setCellData" functions collectively enhance our testing capabilities by providing seamless access and manipulation of Excel data, contributing to the effectiveness and precision of our automated tests.
 ### 5)DataDrivenTest for GmailPage
-ncorporating data-driven testing into our Gmail page automation empowers us to conduct comprehensive and versatile testing scenarios. By dynamically supplying various sets of data, such as different email addresses we can assess how the Gmail page responds under different conditions. 
+Incorporating data-driven testing into our Gmail page automation empowers us to conduct comprehensive and versatile testing scenarios. By dynamically supplying various sets of data, such as different email addresses we can assess how the Gmail page responds under different conditions. 
 
 
