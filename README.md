@@ -19,7 +19,7 @@ This project centers around automating key functionalities of the Gmail applicat
 ### 3)RunnerClass
  It orchestrates both conventional input using "sendkeys" and advanced automation through AutoIt. This dual approach allows for flexible testing, catering to different scenarios. The "sendkeys" procedure inputs data like a human user, while the AutoIt test procedure automates complex actions or interacts with non-standard UI elements.
 ### 4)XLSheetData
-In our automation framework, we've incorporated essential functions to efficiently interact with Excel data. "getCell","getRow","getCellData","setCellData" functions collectively enhance our testing capabilities by providing seamless access and manipulation of Excel data, contributing to the effectiveness and precision of our automated tests.
+In this automation framework, I incorporated essential functions to efficiently interact with Excel data. "getCell","getRow","getCellData","setCellData" functions collectively enhance our testing capabilities by providing seamless access and manipulation of Excel data, contributing to the effectiveness and precision of the automated tests.
 ### 5)DataDrivenTest for GmailPage
 Incorporating data-driven testing into our Gmail page automation empowers us to conduct comprehensive and versatile testing scenarios. By dynamically supplying various sets of data, such as different email addresses we can assess how the Gmail page responds under different conditions. 
 
