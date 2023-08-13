@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SeleniumProject_inEmail"  parallel = "tests" thread-count="2">
+	<test name = "EmailTest_AutoIt"  >
+		<parameter name = "browsers" value = "chrome"/>
+		<classes>
+			<class name="RunnerClass.RunnerClass"/>
+			<class name = "RunnerClass.RunnerClass_Autoit"/>
+	    </classes>
+	
+  </test>
+ 
+	
+ 
+   <test name = "DataDrivenUserName">
+		<parameter name = "browsers" value = "chrome"/>
+		<classes>
+			 <class name = "datadriventest.Username_datadrivenTest"/>
+	    </classes>
+	
+  </test>
+</suite>
